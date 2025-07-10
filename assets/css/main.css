@@ -1632,7 +1632,7 @@ section,
   transform: translate(-50%, -50%);
   width: 2000px;
   height: 2000px;
-  background: url('../img/fog.png') no-repeat center;
+  background: url('assets/img/fog.png') no-repeat center;
   background-size: contain;
   opacity: 0;
   animation: smoke-rise 2s infinite ease-in-out;
