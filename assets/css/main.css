@@ -1625,35 +1625,33 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.smoke {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 2000px;
-  height: 2000px;
-  background: url('assets/img/fog.png') no-repeat center;
-  background-size: contain;
-  opacity: 0;
-  animation: smoke-rise 2s infinite ease-in-out;
-  z-index: 10;
+.hero {
+  position: relative; /* Додай це */
+  overflow: hidden;   /* Щоб туман не виходив за межі */
 }
 
-@keyframes smoke-rise {
-  0% {
-    transform: translate(-50%, -50%) scale(1);
-    opacity: 0;
-  }
-  10% {
-    opacity: 0.2;
-  }
-  50% {
-    opacity: 0.3;
-  }
-  100% {
-    transform: translate(-50%, -70%) scale(1.2);
-    opacity: 0;
-  }
+.smoke {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;     /* зроби туман на всю ширину секції */
+  height: 100%;    /* і висоту */
+  background: url('../img/fog.png') no-repeat center;
+  background-size: cover; /* або contain якщо потрібно */
+  opacity: 0;
+  animation: smoke-rise 2s infinite ease-in-out;
+  z-index: 2; /* постав туман вище фону, але нижче тексту */
+}
+
+.hero img {
+  position: relative; /* щоб залишався під туманом */
+  z-index: 1;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 3; /* текст завжди поверх */
+}
 
 }
 
