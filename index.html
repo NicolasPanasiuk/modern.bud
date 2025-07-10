@@ -81,15 +81,15 @@
           <style>
 .smoke {
   position: absolute;
-  top: -60%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
   transform: translate(50%,);
   width: 2000px;
   height: 2000px;
   background: url('assets/img/fog.png') no-repeat center;
   background-size: contain;
   opacity: 0;
-  animation: smoke-rise 3s infinite ease-in-out;
+  animation: smoke-rise s infinite ease-in-out;
 }
 
 @keyframes smoke-rise {
@@ -104,7 +104,7 @@
     opacity: 0.3;
   }
   100% {
-    transform: translateX(-50%, -50px) translateY(-200px) scale(1.4);
+    transform: translateX(-50%, -50px) translateY(-200px) scale(1.2);
     opacity: 0;
   }
 }
