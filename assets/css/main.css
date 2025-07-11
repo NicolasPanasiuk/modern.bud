@@ -1628,12 +1628,12 @@ section,
 .phone-number {
   font-size: 12px;
   color: #fff;
-  margin-left: 30px;
+  margin-left: 60px;
   font-weight: 500;
 }
   .btn-consultation {
   display: inline-block;
-  margin-top: 8rem;
+  margin-top: 200px;
   background-color: #1c1c1c;
   color: #fff;
   padding: 12px 24px;
