@@ -1631,4 +1631,19 @@ section,
   margin-left: 10px;
   font-weight: 500;
 }
+  .btn-consultation {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: background 0.3s ease;
+}
+.btn-consultation:hover {
+  background-color: #333;
+}
+
 }
