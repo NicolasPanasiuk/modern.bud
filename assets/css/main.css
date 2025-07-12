@@ -1658,24 +1658,25 @@ section,
   .mobile-nav a {
     color: white;
   }
-
 .consultation-fixed-btn {
-  position: fixed;
-  bottom: 20px;
+  position: absolute;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
   background-color: #111;
   color: #fff;
-  padding: 12px 24px;
-  border-radius: 4px;
-  font-weight: 600;
+  padding: 14px 28px;
+  border-radius: 5px;
   font-size: 16px;
+  font-weight: 600;
   text-decoration: none;
-  z-index: 9999;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  z-index: 99;
   transition: background-color 0.3s ease;
 }
+
 .consultation-fixed-btn:hover {
   background-color: #333;
 }
+
 }
