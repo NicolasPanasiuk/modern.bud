@@ -1660,7 +1660,7 @@ section,
   }
 .consultation-fixed-btn {
   position: absolute;
-  bottom: 40px;
+  bottom: -50px;
   left: 50%;
   transform: translateX(-50%);
   background-color: #111;
