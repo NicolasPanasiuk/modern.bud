@@ -1645,5 +1645,32 @@ section,
 .btn-consultation:hover {
   background-color: #333;
 }
-
+ @media (min-width: 992px) {
+  .mobile-nav-toggle {
+    display: none;
+}
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 80%;
+  height: 100%;
+  background-color: #1e1e1e;
+  color: #fff;
+  z-index: 9999;
+  padding: 60px 20px;
+  transition: right 1s ease;
+}
+.mobile-nav.active {
+  right: 0;
+}
+.mobile-nav a {
+  color: black;
+  text-decoration: none;
+}
+@media (max-width: 991px) {
+  .mobile-nav a {
+    color: white;
+  }
+}
 }
