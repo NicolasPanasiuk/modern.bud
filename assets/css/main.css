@@ -1631,20 +1631,6 @@ section,
   margin-left: 60px;
   font-weight: 500;
 }
-  .btn-consultation {
-  display: inline-block;
-  margin-top: 20px;
-  background-color: #1c1c1c;
-  color: #fff;
-  padding: 12px 24px;
-  text-decoration: none;
-  font-weight: 600;
-  letter-spacing: 1px;
-  transition: background 0.3s ease;
-}
-.btn-consultation:hover {
-  background-color: #333;
-}
  @media (min-width: 992px) {
   .mobile-nav-toggle {
     display: none;
@@ -1672,22 +1658,6 @@ section,
   .mobile-nav a {
     color: white;
   }
-.consultation-fixed-btn {
-  position: fixed;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #111;
-  color: #fff;
-  padding: 12px 24px;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 16px;
-  text-decoration: none;
-  z-index: 9999;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  transition: background-color 0.3s ease;
-}
 
 .consultation-fixed-btn {
   position: fixed;
