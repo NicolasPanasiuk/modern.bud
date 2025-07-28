@@ -1685,5 +1685,29 @@ section,
 .consultation-fixed-btn:hover {
   background-color: #333;
 }
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
 
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.05);
+  transition: transform 10s ease-out;
+}
+
+.hero-section.loaded .hero-background {
+  transform: scale(1);
+}
 }
